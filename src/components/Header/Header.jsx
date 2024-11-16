@@ -4,7 +4,7 @@ import Navigation from './Navigation/Nav'
 import CTA from '../UI/Buttons/CTA'
 import SocialsLink from '../UI/Links/SocialsLink'
 
-export default function Header({loading}) {
+export default function Header({ loading }) {
     const { ref, inView } = useInView({
         threshold: 0,
     });
@@ -15,9 +15,9 @@ export default function Header({loading}) {
             <div className="header__title">
                 <h4>Welcome</h4>
                 <h1>
-                    Hey I’m Aneta – Quality Assurance Developer.&nbsp; <br/> 
-                    I test applications, but want to specialise in front-end technologies and web development.
+                    Hey I’m Aneta – Associate Frontend Developer.&nbsp; <br />
                 </h1>
+                <h2>I build and test frontend applications.</h2>
                 <div className="header__cta">
                     <CTA type="primary">See my resume</CTA>
                     <CTA type="secondary">Download my resume &darr;</CTA>
