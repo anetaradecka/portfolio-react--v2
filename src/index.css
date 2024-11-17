@@ -3,8 +3,10 @@
 
 :root {
   --color-primary: #1e1e1e;
-  --color-secondary: #fefefe;
-  --color-tertiary: #eab833;
+  --color-secondary: #F2E5E3;
+  /* --color-secondary: #fefefe; */
+  /* --color-tertiary: #cc397b33; */
+  --color-tertiary: #eec6c0;
 }
 
 * {
@@ -22,14 +24,14 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   line-height: 1.9;
-  background-color: #f8f8f8;
+  background-color: #F2E5E3;
   /* TODO brak  overflow powoduje przepelnienie */
   /* overflow: auto; */
 }
 
 .light {
   color: #1e1e1e;
-  background-color: #f8f8f8;
+  background-color: #F2E5E3;
   transition: background-color 1s ease-in-out;
 }
 

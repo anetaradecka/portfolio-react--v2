@@ -366,9 +366,10 @@ footer .media a:hover {
 }
 
 .projects__box {
-  padding: 5rem;
+  padding: 3rem;
   background-color: var(--color-secondary);
-  border-radius: 5px;
+  border-radius: 2px;
+  border: 1px solid;
   font-size: 1.3rem;
   text-align: justify;
   transition: 330ms ease-in-out;
