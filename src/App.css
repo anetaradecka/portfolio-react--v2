@@ -322,6 +322,9 @@ footer .media a:hover {
   width: 70%;
   font-size: 1.5rem;
   text-align: justify;
+  border: 1px solid;
+  border-radius: 2px;
+  padding: 2rem;
 }
 
 .features__feature ul li {
