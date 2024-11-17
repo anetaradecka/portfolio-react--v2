@@ -15,7 +15,7 @@ export default function Header({ loading }) {
             <div className="header__title">
                 <h4>Welcome</h4>
                 <h1>
-                    Hey I’m Aneta – Associate Frontend Developer.&nbsp; <br />
+                    Hey I’m Aneta – Associate Developer.&nbsp; <br />
                 </h1>
                 <h2>I build and test frontend applications.</h2>
                 <div className="header__cta">

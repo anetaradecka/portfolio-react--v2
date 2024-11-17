@@ -14,7 +14,7 @@ export default function Projects() {
     <Section {...config}>
       <div className="projects">
         <div id="projects__container">
-            {projects.map((project, index) => <Box index={index} {...project}></Box>)}
+          {projects.map((project, index) => <Box index={index} {...project}></Box>)}
         </div>
       </div>
     </Section>
